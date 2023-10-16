@@ -1,0 +1,93 @@
+body {
+    font-family: Times;
+    margin: 1;
+    padding: 1;
+    background-image: url(amarelo.jpg);
+    background-repeat: no-repeat;
+    background-size: 4080px 3080px;
+   max-width: 9908px 
+   
+        /* Estilos para telas menores, como smartphones */
+    
+}
+/* Estilos do cabeçalho */
+header {
+    background-color: #b70d0d;
+    color: rgb(255, 255, 255);
+    /*valores superior e inferior, seguido de valores da direita e esquerda.*/
+    padding: 10px 0;
+    
+;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 9px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos das seções */
+section {
+    padding:20px 30;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 20px;
+    /*margin inferior*/
+    margin-bottom: 20px;
+}
+
+/* Estilos das receitas */
+.receita {
+    background-color: #b70d0d;
+    border: 10px solid rgba(0, 0, 0, 0.896);
+    padding: 1px;
+    margin: 110px;
+    border-radius: 20px;
+}
+
+.receita h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+
+}
+p{
+    color: rgb(0, 0, 0);
+}
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    /* Estilos responsivos aqui */
+}
+
+@media screen and (min-width: 769px) {
+    /* Estilos responsivos aqui */
+}
+
+#estilo_R{
+    width: 0px;
+    height: 4px;
+    width: 0px;
+    height: 40px;
+}
+
